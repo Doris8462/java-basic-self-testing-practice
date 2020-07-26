@@ -7,7 +7,12 @@ public class NameImpl implements WithName, Person {
         //  Please implement the method to pass the test.
         //
         // <--start
-        throw new RuntimeException("Not implemented");
+        try {
+            return "Person";
+            
+        } catch (Exception e) {
+            throw new RuntimeException("Not implemented");
+        }
         // --end-->
     }
 }
